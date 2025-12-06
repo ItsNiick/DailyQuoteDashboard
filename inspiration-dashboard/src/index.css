@@ -1,0 +1,33 @@
+/* Changed to make sure App.css controls most styles */
+:root {
+  --bg: #f4f4f5;
+  --text: #1f2937;
+  --card-bg: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, sans-serif;
+  min-height: 100vh;
+  display: block; /* Remove Vite's flex centering */
+}
+
+/* Remove Vite's default button styling */
+button {
+  all: unset;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
