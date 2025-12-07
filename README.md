@@ -1,2 +1,2 @@
-# DailyQuoteDashboard
-A daily dashboard that displays quotes depending on your mood.
+# Quote Dashboard
+A dashboard that gives the user the ability to generate quotes that fit the mood that they are in.
